@@ -1,0 +1,33 @@
+* {
+    margin: 0;    
+}
+
+.contenedor {
+    background-image: url("barbie-cinesjpg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+p {
+    font-size: xx-large;
+    padding: 15%;
+    color: #ff00ff; 
+    text-shadow: 2px 2px 4px #000000; 
+
+button {
+    font-size: xx-large;
+    padding: 0.75em;
+    color: #ff009d; 
+    text-shadow: 2px 2px 4px #000000; 
+}
+
+#yesBtn {
+    transform: translate(-100%,0);
+}
+
+#noBtn {
+    position: absolute;
+}
